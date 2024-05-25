@@ -1,13 +1,15 @@
 #função para realizar calculo de dois numeros de acordo com o operador
 def calculadora(num1,num2,operador):
-    if(operador == "+"):
+    if(operador == 1):
         return num1 + num2;
-    elif(operador == "-"):
+    elif(operador == 2):
         return num1 - num2;
-    elif(operador == "/"):
+    elif(operador == 3):
         return num1 / num2;
-    else:
+    elif(operador == 4):
         return num1 * num2;
+    else:
+        return 0
         
     
 #chamada do método
